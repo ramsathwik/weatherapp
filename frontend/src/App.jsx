@@ -1,7 +1,12 @@
 import "./index.css";
+import WeatherApp from "./pages/Weatherpage";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <WeatherApp></WeatherApp>
+    </>
+  );
 }
 
 export default App;
