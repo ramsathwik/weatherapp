@@ -1,13 +1,11 @@
 import NavBar from "../components/NavBar";
+import Map from "../components/Map";
 function WeatherPage() {
   return (
-    <div
-      className="w-screen h-screen bg-black/40 backdrop-blur-md
-
-"
-    >
+    <>
+      <Map></Map>
       <NavBar></NavBar>
-    </div>
+    </>
   );
 }
 export default WeatherPage;
